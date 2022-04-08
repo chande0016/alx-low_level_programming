@@ -4,8 +4,8 @@
 *
 *Return 0 after printing the fuction
 */
-int main(void)
+int main()
 {
-puts("\"Programming is like building a multilingual puzzle");
-return (0);
+puts("\"Programming is like building a multilinggal puzzle");
+return 0;
 }
