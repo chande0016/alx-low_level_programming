@@ -6,20 +6,22 @@
  */
 
 int main(void)
+
 {
 char lowerCase;
 
 for (lowerCase = 'a' ; lowerCase <= 'z' ; lowerCase++)
 {
-if (lowerCase != 'q' && lowerCase != 'e')
-{
+if (lowerCase != 'q')
+continue;
+
+else if(lowerCase == 'e')
+continue;
+
 putchar(lowerCase);
 }
 
-}
-
 putchar('\n');
-
 
 return (0);
 
