@@ -12,10 +12,10 @@ char lowerCase;
 
 for (lowerCase = 'a' ; lowerCase <= 'z' ; lowerCase++)
 {
-if (lowerCase != 'q')
+if (lowerCase == 'q')
 continue;
 
-else if(lowerCase == 'e')
+else if (lowerCase == 'e')
 continue;
 
 putchar(lowerCase);
