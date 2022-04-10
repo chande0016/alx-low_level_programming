@@ -11,12 +11,11 @@ char lowerCase;
 
 for (lowerCase = 'a' ; lowerCase <= 'z' ; lowerCase++)
 {
-if (lowerCase == 'q' && lowerCase == 'e')
+if (lowerCase != 'q' && lowerCase != 'e')
 {
-continue;
+putchar(lowerCase);
 }
 
-putchar(lowerCase);
 }
 
 return (0);
