@@ -9,7 +9,7 @@ int main(void)
 {
 char lowerCase;
 
-for (lowerCase = 'a' ; lowerCase <= 'z' ; lowercase++)
+for (lowerCase = 'a' ; lowerCase <= 'z' ; lowerCase++)
 {
 if (lowerCase == 'q' && lowerCase == 'e')
 {
@@ -17,6 +17,7 @@ continue;
 }
 
 putchar(lowerCase);
+}
 
 return (0);
 
