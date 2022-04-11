@@ -7,7 +7,7 @@
 
 int main(void)
 {
-write("and that pieceof art is useful\" - Dora korpar, 2015-10-19\n");
+fwrite("and that piece of art is useful\" - Dora korpar, 2015-10-19\n");
 
 return (1);
 }
