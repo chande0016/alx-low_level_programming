@@ -7,10 +7,8 @@
 
 int main(void)
 {
-putchar("and that pieceof art is useful\" - Dora korpar, 2015-10-19");
+write("and that pieceof art is useful\" - Dora korpar, 2015-10-19\n");
 }
-
-putchar('\n');
 
 return (1);
 
