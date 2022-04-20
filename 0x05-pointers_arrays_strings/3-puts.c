@@ -15,7 +15,7 @@ c = str;
 
 for (j = 0; c[j]; j++)
 {
-_putchar (c[j]);
+_putcha (c[j]);
 }
 _putchar('\n');
 }
