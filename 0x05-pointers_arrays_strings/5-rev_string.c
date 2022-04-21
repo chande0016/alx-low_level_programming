@@ -32,6 +32,7 @@ for (i = 0; i < count / 2; i++)
 
 temp = *end_c;
 *end_c = *start_c;
+*start_c = temp;
 
 start_c++;
 end_c--;
