@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 
 /**
  * *_strcpy - copies string from pointer to pointer.
@@ -11,11 +11,12 @@ nclude "main.h"
 char *_strcpy(char *dest, char *src)
 {
 
-int i = -1;
+int j = -1;
 do {
 i++;
-dest[i] = src[i];
-} while (src[i] != '\0');
+dest[j] = src[j];
+}
+while (src[j] != '\0');
 
 return (dest);
 }
