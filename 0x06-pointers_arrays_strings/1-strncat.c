@@ -6,6 +6,7 @@
  * @n: a interger
  * Return: dest
  */
+
 char *_strncat(char *dest, char *src, int n)
 {
 int i, j;
@@ -28,4 +29,3 @@ dest[i] = '\0';
 
 return (dest);
 }
-
