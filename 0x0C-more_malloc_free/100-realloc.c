@@ -21,13 +21,13 @@ return (ptr);
 if (new_size == 0 && ptr != NULL)
 {
 free(ptr);
-return (0); }
+return (0);
 relloc = malloc(new_size);
 if (relloc == NULL)
 return (0);
 for (i = 0; i < (old_size || i < new_size); i++)
 										{
-										*(relloc + i) = clone[i];
+*(relloc + i) = clone[i];
 }
 free(ptr);
 return (relloc);
